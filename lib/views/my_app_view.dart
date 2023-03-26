@@ -17,7 +17,7 @@ class _MyAppState extends State<MyAppView> {
   Widget build(BuildContext context) {
     return Scaffold(
         floatingActionButton: FloatingActionButton(
-          onPressed: () => myApp.contador++,
+          onPressed: () => myApp.incrementCounter(),
         ),
         body: Center(
             child: Obx(
