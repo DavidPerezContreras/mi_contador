@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'my_app.dart';
+import 'views/my_app_view.dart';
 
 void main() {
-  runApp(new MaterialApp(
-    home: const MyApp(),
+  runApp(const MaterialApp(
+    home: MyAppView(),
   ));
 }
