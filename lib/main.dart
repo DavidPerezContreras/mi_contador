@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(new MaterialApp(
+    home: MyApp(),
+  ));
 }
 
 class MyApp extends StatefulWidget {
@@ -23,7 +25,7 @@ class _MyAppState extends State<MyApp> {
           }),
         ),
         body: Center(
-          child: Text("Hello World"),
+          child: Text('$_contador'),
         ));
   }
 }
